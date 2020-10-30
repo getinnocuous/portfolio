@@ -41,12 +41,15 @@ const ButtonContainer = styled.div`
         transform-origin: center center;
       }
     }
-    &:hover:not(:disabled) {
-      background-color: var(--lynx-white);
-      svg {
-        fill: var(--rise-n-shine);
+    @media (hover: hover) {
+      &:hover:not(:disabled) {
+        background-color: var(--lynx-white);
+        svg {
+          fill: var(--rise-n-shine);
+        }
       }
     }
+
     &:disabled {
       cursor: not-allowed;
       opacity: 0.4;

@@ -31,10 +31,12 @@ const PortfolioItem = styled.article`
     border-top: solid 1rem var(--protoss-pylon);
     border-bottom: solid 1rem var(--protoss-pylon);
     transition: border 0.2s ease-in-out;
-    &:hover,
-    &:focus {
-      border-top: solid 1rem var(--rise-n-shine);
-      border-bottom: solid 1rem var(--rise-n-shine);
+    @media (hover: hover) {
+      &:hover,
+      &:focus {
+        border-top: solid 1rem var(--rise-n-shine);
+        border-bottom: solid 1rem var(--rise-n-shine);
+      }
     }
     > div {
       margin-top: 1rem;

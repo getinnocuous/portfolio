@@ -16,14 +16,8 @@ export const theme = {
 export const GlobalStyle = createGlobalStyle`
   :root {
     --protoss-pylon: ${theme.color.blue};
-    --periwinkle: #9c88ff;
     --rise-n-shine: ${theme.color.mustard};
-    --download-progress: #4cd137;
-    --seabrook: #487eb0;
-    --nasturcian-flower: #e84118;
     --lynx-white: ${theme.color.white};
-    --blueberry-soda: #7f8fa6;
-    --mazarine-blue: #273c75;
     --blue-nights: ${theme.color.navy};
     --layout-max-width: 120rem;
     --content-max-width: 48rem;
@@ -93,8 +87,8 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 12rem;
     }
     span {
-      background-position: 100% calc(100% - 1rem);
-      background-size: 0.12rem 1rem;
+      background-position: 100% calc(100% - 1.2rem);
+      background-size: 0.12rem .8rem;
       @media screen and (min-width: ${theme.breakpoints.md}) {
         background-position: 100% calc(100% - 2rem);
         background-size: 0.12rem 2rem;
@@ -106,8 +100,8 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 4rem;
     margin: 0 0 calc(var(--v-spacing) * 2);
     span {
-      background-position: 100% calc(100% - 0.4rem);
-      background-size: 0.12rem 0.4rem;
+      background-position: 100% calc(100% - 0.9rem);
+      background-size: 0.12rem 0.7rem;
       @media screen and (min-width: ${theme.breakpoints.lg}) {
         background-position: 100% calc(100% - 0.8rem);
         background-size: 0.12rem 0.8rem;
@@ -119,7 +113,7 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 2.8rem;
     margin: 0 0 var(--v-spacing);
     span {
-      background-position: 100% calc(100% - 0.4rem);
+      background-position: 100% calc(100% - 0.6rem);
       background-size: 0.12rem 0.4rem;
     }
   }

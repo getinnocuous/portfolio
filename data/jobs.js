@@ -3,7 +3,11 @@ export const jobs = [
     company: 'Auto Trader',
     role: 'Front End Developer',
     date: "Jan '20 – Present",
-    work: ['Working across React and Angular codebases'],
+    work: [
+      'Front end lead for development of new, high-impact advertising product to help dealers target local buyers',
+      'Worked as part of a team to help replatform desktop search results site to a more modern tech stack',
+      'Daily work across React and Angular codebases for both consumer and customer facing products',
+    ],
   },
   {
     company: 'Absurd',
