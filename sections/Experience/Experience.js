@@ -30,11 +30,11 @@ const ButtonContainer = styled.div`
     appearance: none;
     box-shadow: none;
     border: solid 0.2rem var(--blue-nights);
-    background: transparent;
-    transition: all 0.2s ease-in-out;
+    background-color: transparent;
+    transition: background-color 0.2s ease-in-out;
     cursor: pointer;
     svg {
-      transition: all 0.2s ease-in-out;
+      transition: fill 0.2s ease-in-out;
       fill: var(--blue-nights);
       &.previous {
         transform: rotate(-180deg);
@@ -42,7 +42,7 @@ const ButtonContainer = styled.div`
       }
     }
     &:hover:not(:disabled) {
-      background: var(--lynx-white);
+      background-color: var(--lynx-white);
       svg {
         fill: var(--rise-n-shine);
       }
@@ -64,7 +64,11 @@ export const Experience = () => {
       <div>
         <Job key={jobs[currentIndex].company} job={jobs[currentIndex]} />
         <ButtonContainer>
-          <button disabled={currentIndex === 0} onClick={() => setCurrentIndex(currentIndex - 1)}>
+          <button
+            aria-label="Show previous item"
+            disabled={currentIndex === 0}
+            onClick={() => setCurrentIndex(currentIndex - 1)}
+          >
             <svg
               className="previous"
               width="11"
@@ -76,7 +80,11 @@ export const Experience = () => {
               <path d="M0 1.60615L7.79167 8.97231L0.171877 16.4492L1.83333 18L11 8.91692L1.60417 0L0 1.60615Z" />
             </svg>
           </button>
-          <button disabled={currentIndex === jobs.length - 1} onClick={() => setCurrentIndex(currentIndex + 1)}>
+          <button
+            aria-label="Show next item"
+            disabled={currentIndex === jobs.length - 1}
+            onClick={() => setCurrentIndex(currentIndex + 1)}
+          >
             <svg width="11" height="18" viewBox="0 0 11 18" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 1.60615L7.79167 8.97231L0.171877 16.4492L1.83333 18L11 8.91692L1.60417 0L0 1.60615Z" />
             </svg>

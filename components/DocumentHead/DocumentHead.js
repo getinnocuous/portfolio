@@ -12,6 +12,7 @@ const { title, description, image, url } = og;
 export const DocumentHead = () => (
   <Head>
     <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
     <title>{title}</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400&display=swap"

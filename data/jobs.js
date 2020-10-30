@@ -3,11 +3,7 @@ export const jobs = [
     company: 'Auto Trader',
     role: 'Front End Developer',
     date: "Jan '20 – Present",
-    work: [
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-      'Phasellus metus mauris, sagittis quis pretium in, eleifend sit amet erat. Aliquam ultricies risus sit amet dolor porta lobortis a ac ante',
-      'In eget vehicula elit. Nullam nec metus id nulla finibus tincidunt. Sed fermentum ligula nisi, non vulputate tellus porta et',
-    ],
+    work: ['Working across React and Angular codebases'],
   },
   {
     company: 'Absurd',
@@ -26,7 +22,7 @@ export const jobs = [
     work: [
       'Developing and delivering over 200 E-details to a high standard, using HTML5, CSS3 and JS',
       'Responsible for developing and maintaining a library of reusable components and code to be used throughout the company',
-      'Collaborating with designers and digital project managers to deliver a variety of responsive, cross browser compatible websites',
+      'Collaborating with designers and project managers to deliver a variety of responsive, cross browser compatible websites',
     ],
   },
 ];

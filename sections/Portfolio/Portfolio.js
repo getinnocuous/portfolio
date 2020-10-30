@@ -27,7 +27,7 @@ const PortfolioItem = styled.article`
     padding: var(--h-spacing);
     border-top: solid 1rem var(--protoss-pylon);
     border-bottom: solid 1rem var(--protoss-pylon);
-    transition: all 0.2s ease-in-out;
+    transition: border 0.2s ease-in-out;
     &:hover,
     &:focus {
       border-top: solid 1rem var(--rise-n-shine);
