@@ -21,7 +21,7 @@ export const jobs = [
     date: "Mar '13 – Apr '18",
     work: [
       'Developing and delivering over 200 E-details to a high standard, using HTML5, CSS3 and JS',
-      'Responsible for developing and maintaining a library of reusable components and code to be used throughout the company',
+      'Responsible for developing and maintaining a library of reusable components be used company wide',
       'Collaborating with designers and project managers to deliver a variety of responsive, cross browser compatible websites',
     ],
   },

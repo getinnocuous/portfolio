@@ -40,6 +40,7 @@ const JobRole = styled.span`
 
 const JobInner = styled.div`
   padding-top: var(--h-spacing);
+  margin-bottom: var(--v-spacing);
 `;
 
 const JobTasks = styled.ul`
