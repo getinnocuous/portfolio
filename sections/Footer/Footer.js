@@ -10,7 +10,7 @@ const FooterContainer = styled.footer`
   justify-content: space-between;
   align-items: center;
   h4 {
-    margin: 0;
+    margin: 0 1rem 0 0;
     a:hover {
       color: ${theme.color.mustard};
     }
