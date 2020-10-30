@@ -44,6 +44,7 @@ const PortfolioItem = styled.article`
 
 const PortfolioItemDescription = styled.p`
   font-family: var(--heading);
+  font-weight: 400;
   color: var(--lynx-white);
   font-size: 1.8rem;
   margin: 0 0 auto;
@@ -51,6 +52,7 @@ const PortfolioItemDescription = styled.p`
 
 const PortfolioItemTech = styled.span`
   font-family: var(--heading);
+  font-weight: 400;
   color: var(--lynx-white);
   font-size: 1.4rem;
 `;

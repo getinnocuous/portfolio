@@ -78,6 +78,7 @@ export const GlobalStyle = createGlobalStyle`
   .h5,
   .h6 {
     font-family: var(--heading);
+    font-weight: 400;
     line-height: 1;
     span {
       background-image: linear-gradient(to bottom, transparent 0%, var(--rise-n-shine) 0.1%, var(--rise-n-shine));

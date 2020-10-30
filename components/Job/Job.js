@@ -31,10 +31,12 @@ const JobDate = styled.span`
   font-size: 1.6rem;
   text-align: center;
   font-family: var(--heading);
+  font-weight: 400;
 `;
 
 const JobRole = styled.span`
   font-family: var(--heading);
+  font-weight: 400;
   font-size: 1.4rem;
 `;
 
