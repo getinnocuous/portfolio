@@ -2,11 +2,9 @@ import styled from 'styled-components';
 
 const JobContainer = styled.article`
   background-color: var(--rise-n-shine);
-  padding: var(--h-spacing);
   margin-bottom: var(--v-spacing);
   margin-right: var(--h-spacing);
   flex-shrink: 0;
-  max-width: var(--content-max-width);
   width: 100%;
   flex: 1;
   &:last-of-type {
