@@ -5,7 +5,7 @@ export const jobs = [
     date: "Jan '20 – Present",
     work: [
       'Front end lead for development of new, high-impact advertising product to help dealers target local buyers',
-      'Worked as part of a team to help replatform desktop search results site to a more modern tech stack',
+      'Worked as part of a team to help replatform desktop search results website to a more modern tech stack',
       'Daily work across React and Angular codebases for both consumer and customer facing products',
     ],
   },
@@ -15,7 +15,7 @@ export const jobs = [
     date: "Apr '18 – Dec '19",
     work: [
       'Responsible for the development of multiple large website rebuilds',
-      'Collaborating with Sitecore developers to intergrate front-end features and changes into a global eCommerce site',
+      'Collaborating with Sitecore developers to intergrate front-end features and changes into a global eCommerce website',
       'Creating an Alexa skill to display which travel adaptor a country uses when asked by the user',
     ],
   },
@@ -28,5 +28,11 @@ export const jobs = [
       'Responsible for developing and maintaining a library of reusable components be used company wide',
       'Collaborating with designers and project managers to deliver a variety of responsive, cross browser compatible websites',
     ],
+  },
+  {
+    company: 'Propeller BrandComms',
+    role: 'Content Management/Digital artworker',
+    date: "Jan '11 – Dec '12",
+    work: ['Content creation and uploading to eCommerce website', 'Basic digital and print design and production'],
   },
 ];

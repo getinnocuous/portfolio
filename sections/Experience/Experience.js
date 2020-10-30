@@ -3,15 +3,25 @@ import { Job } from '../../components/Job/Job';
 import { jobs } from '../../data/jobs';
 import styled from 'styled-components';
 
-const ExperienceContainer = styled.section`
-  > div {
-    max-width: var(--content-max-width);
-    background-color: var(--rise-n-shine);
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    padding: var(--h-spacing);
-  }
+const ExperienceContainerInner = styled.div`
+  max-width: var(--content-max-width);
+  background-color: var(--rise-n-shine);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: var(--h-spacing);
+`;
+
+const ProgressBarContainer = styled.div`
+  max-width: var(--content-max-width);
+  background-color: var(--rise-n-shine);
+`;
+
+const ProgressBar = styled.div`
+  height: 0.4rem;
+  width: 100%;
+  background: var(--blue-nights);
+  transition: width 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 `;
 
 const ButtonContainer = styled.div`
@@ -60,11 +70,11 @@ const ButtonContainer = styled.div`
 export const Experience = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   return (
-    <ExperienceContainer>
+    <section>
       <h2>
         <span>Experience</span>
       </h2>
-      <div>
+      <ExperienceContainerInner>
         <Job key={jobs[currentIndex].company} job={jobs[currentIndex]} />
         <ButtonContainer>
           <button
@@ -93,7 +103,10 @@ export const Experience = () => {
             </svg>
           </button>
         </ButtonContainer>
-      </div>
-    </ExperienceContainer>
+      </ExperienceContainerInner>
+      <ProgressBarContainer>
+        <ProgressBar style={{ width: `${(100 / 3) * currentIndex}%` }} />
+      </ProgressBarContainer>
+    </section>
   );
 };
