@@ -90,8 +90,8 @@ export const GlobalStyle = createGlobalStyle`
       background-position: 100% calc(100% - 1.2rem);
       background-size: 0.12rem .8rem;
       @media screen and (min-width: ${theme.breakpoints.md}) {
-        background-position: 100% calc(100% - 2rem);
-        background-size: 0.12rem 2rem;
+        background-position: 100% calc(100% - 2.6rem);
+        background-size: 0.12rem 1.6rem;
       }
     }
   }
@@ -130,7 +130,7 @@ export const GlobalStyle = createGlobalStyle`
     display: grid;
     grid-gap: calc(var(--v-spacing) * 3) var(--h-spacing);
     grid-template-columns: 1fr;
-    @media screen and (min-width: ${theme.breakpoints.md}) {
+    @media screen and (min-width: ${theme.breakpoints.lg}) {
       grid-template-columns: 1fr 1fr;
     }
     > section,

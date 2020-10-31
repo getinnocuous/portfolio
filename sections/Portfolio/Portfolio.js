@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { portfolio } from '../../data/portfolio';
 
 const PortfolioContainer = styled.section`
-  @media screen and (min-width: ${({ theme }) => theme.breakpoints.md}) {
+  @media screen and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
     grid-column: 1 / span 2;
   }
 `;

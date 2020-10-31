@@ -10,6 +10,13 @@ const ExperienceContainerInner = styled.div`
   display: flex;
   flex-direction: column;
   padding: var(--h-spacing);
+  min-height: 40rem; // iPhone 5 edge case
+  @media screen and (min-width: 375px) {
+    min-height: 36rem;
+  }
+  @media screen and (min-width: ${({ theme }) => theme.breakpoints.lg}) {
+    min-height: none;
+  }
 `;
 
 const ProgressBarContainer = styled.div`

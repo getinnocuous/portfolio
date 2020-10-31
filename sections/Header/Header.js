@@ -52,8 +52,9 @@ export const Header = () => (
           Manchester based front-ender who’s passionate about writing clean, reusable and readable code.
         </HeaderText>
         <HeaderText>
-          I’m an enthusiastic team player who is always striving to improve and progress. I’m a quick learner who is
-          eager to build excellent products and user experiences.
+          I have many years professional experience in front end development, working both agency side and in-house. I
+          strive to constantly improve my skills and progress in my career and I love to build excellent products and
+          user experiences.
         </HeaderText>
         <ContactIcons />
       </div>
