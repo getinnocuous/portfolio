@@ -15,7 +15,7 @@ export const jobs = [
     date: "Apr '18 – Dec '19",
     work: [
       'Responsible for the development of multiple large website rebuilds',
-      'Collaborating with Sitecore developers to intergrate front end features and changes into a global eCommerce website',
+      'Collaborating with Sitecore developers to integrate front end features and changes into a global eCommerce website',
       'Creating an Alexa skill to display which travel adaptor a country uses when asked by the user',
     ],
   },
