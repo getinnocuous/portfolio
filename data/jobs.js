@@ -5,7 +5,7 @@ export const jobs = [
     date: "Jan '20 – Present",
     work: [
       'Front end lead for development of new, high-impact advertising product to help dealers target local buyers',
-      'Worked as part of a team to help replatform desktop search results website to a more modern tech stack',
+      'Worked as part of a team to help re-platform desktop search results website to a more modern tech stack',
       'Daily work across React and Angular codebases for both consumer and customer facing products',
     ],
   },
