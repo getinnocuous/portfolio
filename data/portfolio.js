@@ -9,12 +9,25 @@ import {
   Umbraco,
   Css3,
   Graphql,
+  Vercel,
+  Typescript,
 } from '@icons-pack/react-simple-icons';
 
 const ICON_SIZE = 28;
 
 /* eslint-disable react/jsx-key */
 export const portfolio = [
+  {
+    title: 'Rock Paper Scissors',
+    url: 'https://rock-paper-scissors.elliotwaddington.vercel.app/',
+    description: 'Simple game of Rock Paper Scissors.',
+    tech: [
+      <ReactJs size={ICON_SIZE} />,
+      <Typescript size={ICON_SIZE} />,
+      <StyledComponents size={ICON_SIZE} />,
+      <Vercel size={ICON_SIZE} />,
+    ],
+  },
   {
     title: 'Festival Homes',
     url: 'https://ew-festivalhomes.netlify.app/',
