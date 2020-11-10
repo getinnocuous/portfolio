@@ -4,9 +4,9 @@ export const jobs = [
     role: 'Front End Developer',
     date: "Jan '20 – Present",
     work: [
-      'Front end lead for development of new, high-impact advertising product to help dealers target local buyers',
+      'Front end lead for the development of new, high-impact advertising product to help dealers target local buyers',
       'Part of a team that is working on re-platforming the search results site to a more modern tech stack of React and GraphQL',
-      'Daily work across React and Angular codebases for both consumer and customer facing products',
+      'Daily work across React and Angular codebases for both consumer and customer-facing products',
     ],
   },
   {
@@ -25,14 +25,17 @@ export const jobs = [
     date: "Mar '13 – Apr '18",
     work: [
       'Developing and delivering over 200 E-details to a high standard, using HTML5, CSS3 and JS',
-      'Responsible for developing and maintaining a library of reusable components be used company wide',
-      'Collaborating with designers and project managers to deliver a variety of responsive, cross browser compatible websites',
+      'Responsible for developing and maintaining a library of reusable components be used company-wide',
+      'Collaborating with designers and project managers to deliver a variety of responsive, cross-browser compatible websites',
     ],
   },
   {
     company: 'Propeller BrandComms',
     role: 'Content Management/Digital artworker',
     date: "Jan '11 – Dec '12",
-    work: ['Content creation and uploading to eCommerce website', 'Basic digital and print design and production'],
+    work: [
+      'Content creation and uploading to eCommerce website',
+      'Basic design and production of digital and print work',
+    ],
   },
 ];
