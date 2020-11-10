@@ -4,6 +4,7 @@ import {
   Sketch,
   // Postgresql,
   Gatsby,
+  NextDotJs,
   ReactJs,
   Html5,
   Css3,
@@ -11,6 +12,7 @@ import {
   Angular,
   Graphql,
   Javascript,
+  Typescript,
   Gulp,
   Grunt,
   Webpack,
@@ -36,6 +38,10 @@ export const skills = {
       component: <Javascript title={'JavaScript'} size={ICON_SIZE} color={ICON_COLOUR} />,
     },
     {
+      name: 'TypeScript',
+      component: <Typescript title={'TypeScript'} size={ICON_SIZE} color={ICON_COLOUR} />,
+    },
+    {
       name: 'SCSS',
       component: <Sass title={'SCSS'} size={ICON_SIZE} color={ICON_COLOUR} />,
     },
@@ -46,6 +52,10 @@ export const skills = {
     {
       name: 'Gatsby',
       component: <Gatsby title={'Gatsby'} size={ICON_SIZE} color={ICON_COLOUR} />,
+    },
+    {
+      name: 'Next.js',
+      component: <NextDotJs title={'Next.js'} size={ICON_SIZE} color={ICON_COLOUR} />,
     },
     {
       name: 'Angular',
