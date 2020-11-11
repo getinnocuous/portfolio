@@ -21,7 +21,7 @@ export const jobs = [
   },
   {
     company: 'HAVAS LYNX',
-    role: 'Junior Front End Developer',
+    role: 'Front End Developer',
     date: "Mar '13 – Apr '18",
     work: [
       'Developing and delivering over 200 E-details to a high standard, using HTML5, CSS3 and JS',
