@@ -11,12 +11,25 @@ import {
   Graphql,
   Vercel,
   Typescript,
+  Shopify,
 } from '@icons-pack/react-simple-icons';
 
 const ICON_SIZE = 28;
 
 /* eslint-disable react/jsx-key */
 export const portfolio = [
+  {
+    title: 'Lottie',
+    url: 'https://dressedinlottie.shop/',
+    description: 'eCommerce site for the Mrs.',
+    tech: [
+      <ReactJs size={ICON_SIZE} />,
+      <Typescript size={ICON_SIZE} />,
+      <StyledComponents size={ICON_SIZE} />,
+      <Shopify size={ICON_SIZE} />,
+      <Vercel size={ICON_SIZE} />,
+    ],
+  },
   {
     title: 'Rock Paper Scissors',
     url: 'https://rock-paper-scissors.elliotwaddington.vercel.app/',
